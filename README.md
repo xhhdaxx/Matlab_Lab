@@ -7,6 +7,8 @@
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2020a+-blue.svg)](https://www.mathworks.com/products/matlab.html)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+</div>
+
 ## 项目简介
 
 本项目包含集美大学数学建模课程的完整实验代码，涵盖MATLAB编程基础、曲线拟合、非线性建模、微积分应用以及优化模型等核心内容。每个实验模块都配有详细的代码注释和可视化示例，适合数学建模入门学习和参考。
@@ -267,6 +269,49 @@ T_opt = solve(dT == 0, T);
 
 ---
 
+## 实验成果
+
+### Lab1学习成果
+- ✅ 掌握MATLAB基本语法
+- ✅ 熟练使用数组与矩阵运算
+- ✅ 能够绘制各类二维/三维图形
+- ✅ 理解MATLAB编程规范
+
+### Lab2学习成果
+- ✅ 掌握多项式拟合方法
+- ✅ 理解非线性拟合原理
+- ✅ 能够评估拟合效果
+
+### Lab3学习成果
+- ✅ 掌握Curve Fitting Toolbox使用
+- ✅ 能够处理复杂非线性拟合问题
+- ✅ 理解参数估计原理
+
+### Lab4学习成果
+- ✅ 掌握符号计算方法
+- ✅ 能够求解极值问题
+- ✅ 理解优化算法应用
+
+### Lab5学习成果
+- ✅ 掌握EOQ模型建模方法
+- ✅ 能够求解生产-存储优化问题
+- ✅ 理解优化模型在实际问题中的应用
+
+---
+
+## 常见问题
+
+### Q1: 运行时提示"未定义函数或变量"？
+**A**: 请确保已安装必需的工具箱，运行`ver`命令检查。
+
+### Q2: 图形窗口不显示？
+**A**: 检查是否使用`close all`关闭了所有窗口，或添加`figure`命令创建新窗口。
+
+### Q3: 符号计算报错？
+**A**: 确保使用`syms`声明符号变量，如`syms x positive`。
+
+---
+
 ## 参考文献
 
 1. 司守奎, 孙兆亮. 《数学建模算法与应用》(第2版). 国防工业出版社.
@@ -294,4 +339,16 @@ T_opt = solve(dT == 0, T);
 
 ## 联系方式
 
-邮箱：xhhdaxx@gmail.com
+- 作者: hexinhao
+- 学校: 集美大学
+- 课程: 数学建模
+
+---
+
+<div align="center">
+
+**如果本项目对你有帮助，请给一个 ⭐ Star 支持！**
+
+Made with ❤️ by Jimei University
+
+</div>
